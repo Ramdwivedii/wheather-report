@@ -1,0 +1,75 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+</head>
+<body>
+    <form action="/" method="post" >
+         <label for="cityInput">City name</label>
+         <input type="text" name="cityName" id="cityInput">
+         <button>Get</button>
+    </form>
+   
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #weather-container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        #city-input {
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        #get-weather-btn {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #weather-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="weather-container">
+    <h2>Weather App</h2>
+    <form action="/" method="post"> <input type="text" id="city-input" placeholder="Enter city" name="cityName">
+        <button id="get-weather-btn">Get Weather</button></form>
+   
+    <div id="weather-info"></div>
+</div>
+</body>
+</html>
